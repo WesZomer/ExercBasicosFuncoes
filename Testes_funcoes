@@ -1,0 +1,27 @@
+#  Testes Exercícios Basicos Funções
+
+import unittest
+from exercicios1 import *
+
+class TesteUnitario(unittest.TestCase):
+    #def testar_classificar_idade(self):
+    #    self.assertEqual(classificar_idade(5), 'Criança')
+    #    self.assertEqual(classificar_idade(15), 'Adolescente')
+    #    self.assertEqual(classificar_idade(35), 'Adulto')
+    #    self.assertEqual(classificar_idade(115), 'Idade inválida')
+       
+    #def comparador_numeros(self):
+       #    self.assertEqual(comparador_numeros(10,20), '10 é menor que 20')
+    #    self.assertEqual(comparador_numeros(20,10), '20 é maior que 10')
+    #    self.assertEqual(comparador_numeros(10,10), '10 é igual a 10')
+       
+    #def identificar_vogal_consoante(self):
+    #    self.assertEqual(vogal_consoante('a'), 'A letra digitada é uma vogal.')
+    #    self.assertEqual(vogal_consoante('b'), 'A letra digitada é uma consoante.')
+   
+    #def comparar_senhas(self):
+    #    self.assertEqual(comparacao_senha(1234, 1234), 'Acesso permitido!')
+    #    self.assertEqual(comparacao_senha(1234, 123), 'Acesso negado!')
+   
+    if __name__ == '__main__':
+        unittest.main()

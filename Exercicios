@@ -1,0 +1,47 @@
+#  Exercícios Basicos Funções
+# 1. Classificação de Idade
+# Peça a idade do usuário e classifique-o de acordo com a tabela:
+# Menor de 12 anos → Criança
+# Entre 12 e 17 anos → Adolescente
+# 18 anos ou mais → Adulto
+
+#def classificar_idade(idade):
+#    return 'Criança'
+#    if idade >= 12 and idade <= 17:
+#        return 'Adolescente'
+#    elif idade >= 18 and idade <= 100:
+#        return 'Adulto'
+#    else:
+#        return 'Idade inválida'
+
+
+# 2. Maior de Dois Números
+# Solicite dois números ao usuário e exiba o maior deles. Caso sejam iguais, informe isso.
+
+#def comparador_numeros(numero, numero2):
+#    if numero > numero2:
+#        return '{numero} é maior que {numero2}'
+#    elif numero == numero2:
+#        return '{numero} é igual a {numero2}'
+#    else:
+#     return '{numero} é menor que {numero2}'
+
+
+# 3. Verificação de Vogal ou Consoante
+# Peça ao usuário para digitar uma letra e informe se é uma vogal (a, e, i, o, u) ou consoante.
+
+#def vogal_consoante(letra):
+#    if letra == 'a' or letra == 'e' or letra == 'i' or letra == 'o' or letra == 'u':
+#        return 'A letra digitada é uma vogal.'
+#    else:
+#        return 'A letra digitada é uma consoante.'
+
+
+# 4. Comparação de Senhas
+# Solicite ao usuário que defina uma senha e, em seguida, peça para confirmá-la. Caso as senhas sejam iguais, exiba “Acesso permitido”, senão, exiba “Senhas não coincidem”.
+
+#def comparacao_senha(senha1, senhaConfirmada):
+#    if(senha1 == senhaConfirmada):
+#        return 'Acesso permitido!'
+#    else:
+#        return 'Acesso negado!'
